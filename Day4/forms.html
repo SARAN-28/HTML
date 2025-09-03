@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Form Tags</h1>
+    </center>
+
+    <form>
+        
+        <div><label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+        </div>
+        <div><label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="17">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <textarea id="address" rows="3" cols="20"></textarea>
+        </div>
+        <div>
+            <label for="facility">Facility:</label>
+            <input type="checkbox" name="facility" value="hostel">Hostel
+            <input type="checkbox" name="facility" value="dayscholar">Dayscholar
+            <input type="checkbox" name="facility" value="collegebus">College Bus
+            <input type="checkbox" name="facility" value="vehicle">Own Vehicle
+        </div>
+        <div>
+            <label for="courses">Courses:</label>
+            <select name="courses">
+                <option value="">Select Courses</option>
+                <option value="MCA">Master of Computer Applications</option>
+                <option value="BCA">Bachelor of Computer Applications</option>
+                <option value="M.Sc">Master of Computer Science</option>
+                <option value="B.Sc">Bachelor of Computer Science</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
